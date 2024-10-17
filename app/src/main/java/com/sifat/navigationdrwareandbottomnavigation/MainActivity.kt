@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
 
         setupActionBarWithNavController(navController, drwarelayout)
         navView.setupWithNavController(navController)
-
     }
 
     override fun onSupportNavigateUp(): Boolean {
